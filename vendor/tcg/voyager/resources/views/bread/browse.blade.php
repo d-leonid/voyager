@@ -71,7 +71,7 @@
                             </form>
                         @endif
                         <div class="table-responsive">
-                            <table id="dataTable testtttt" class="table table-hover">
+                            <table id="dataTable" class="table table-hover">
                                 <thead>
                                     <tr>
                                         @can('delete',app($dataType->model_name))
